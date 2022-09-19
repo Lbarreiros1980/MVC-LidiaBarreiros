@@ -1,0 +1,60 @@
+
+body{
+    margin:auto;
+    background:#ececeb;
+    font-family:sans-serif;
+    color:#4056A1;
+    background-size: 100% ;    ;
+  }
+  
+  
+  
+  .container {
+    margin: 50px;
+  }
+  
+  table.listing {
+      border-spacing: 0px;
+      width: 80%;
+      border: 1px solid grey;
+  }
+  
+  table.listing th, table.listing td {
+      border: 1px solid grey;
+      height: 30px;
+      padding: 5px;
+  }
+  
+  input, select {
+    padding: 6px;
+    display:block;
+    margin: 5px;
+  }
+  
+  .navigation {
+  
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    min-height: 12vh;
+    background:#d79922;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform:uppercase;
+    display: block;
+    padding: 1em;
+    color:#4056A1;
+    padding:40px;
+  }
+   
+  .navigation a:hover {
+    
+    border-bottom: 2 px white;
+  }
